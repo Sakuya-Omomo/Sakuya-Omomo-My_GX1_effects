@@ -13,7 +13,7 @@ body {
 }/* ヘッダーh1をカーソルで透かす */
 
 #header h1 a{
-    color: rgb(214, 220, 220);
+    color: #d6dcdc;
 }/* ヘッダーh1a（文字）の色と位置*/
 
 
@@ -50,6 +50,49 @@ body {
     opacity: 0.5;
 }
 
+/* main */
+#main img {
+    width: 100%;
+    max-width: 1800px;
+    height: 330px;
+    object-fit: cover;
+    margin-bottom: 20px;
+
+}
+
+/* body */
+#effects h2 {
+    font-size: 43px;
+    text-align: center;
+    color: #d6dcdc;
+
+}
+
+#effects ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+#effects img {
+    width: 100%;
+    max-width: 450px;
+    padding: 0.5% 5%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#effects img:hover {
+    transform: scale(1.07,1.07);
+    opacity: 0.7;
+}
+
+
+
 /* sp */
 @media screen and (max-width: 620px) {
     /* header */
@@ -66,4 +109,6 @@ body {
     #header h1 a{
         font-size: 30px;
     }
+
+
 }
