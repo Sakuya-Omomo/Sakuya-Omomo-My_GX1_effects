@@ -79,6 +79,8 @@ body {
 }
 
 #effects img {
+    border-radius: 65;
+    border-radius: 75px;
     width: 100%;
     max-width: 450px;
     padding: 0.5% 5%;
